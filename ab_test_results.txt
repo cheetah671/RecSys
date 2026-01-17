@@ -1,0 +1,49 @@
+
+============================================================
+EXPERIMENT STATISTICS
+============================================================
+
+Experiment: reranker_ab_test
+
+  Variant: baseline
+    Total queries: 113
+    Total clicks: 9
+    Total reward: 16.37
+    Click rate: 7.96%
+    Avg reward: 0.14
+    Avg click position: 0.01
+
+  Variant: hybrid
+    Total queries: 27
+    Total clicks: 5
+    Total reward: 6.10
+    Click rate: 18.52%
+    Avg reward: 0.23
+    Avg click position: 0.28
+
+  Variant: linear
+    Total queries: 76
+    Total clicks: 9
+    Total reward: 12.42
+    Click rate: 11.84%
+    Avg reward: 0.16
+    Avg click position: 0.23
+
+Experiment: reranker_ab_test_gbdt
+
+  Variant: baseline
+    Total queries: 4325
+    Total clicks: 428
+    Total reward: 912.90
+    Click rate: 9.90%
+    Avg reward: 0.21
+    Avg click position: 0.59
+
+  Variant: gbdt
+    Total queries: 4447
+    Total clicks: 374
+    Total reward: 673.84
+    Click rate: 8.41%
+    Avg reward: 0.15
+    Avg click position: 0.36
+
